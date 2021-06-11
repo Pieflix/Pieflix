@@ -23,6 +23,7 @@ p {
 }
 img {
     width:100% ;
+    background: none;
 }
  .navbar {
      background-color:rgb(245, 219, 197);
@@ -207,4 +208,15 @@ img {
     transform: scale(0.95);
   }
 
+  .partners .card {
+    background-color:transparent;
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: transform 0.2s ease-in;
+    width: 100%;
   
+  }
+
+  .partners .card:hover {
+    transform: translateY(-15px);
+  }
